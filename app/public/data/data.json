@@ -1,6 +1,42 @@
 {
-  "boards": [],
-  "tasks": [],
+  "boards": [
+    {
+      "name": "Groceries",
+      "user": 0,
+      "id": 67714408839,
+      "starred": false,
+      "created": "2022-09-01"
+    }
+  ],
+  "tasks": [
+    {
+      "boardId": 67714408839,
+      "description": "",
+      "completed": false,
+      "listId": 27570642897,
+      "title": "bread",
+      "id": 29168399257,
+      "created": "2022-09-01",
+      "deadline": "2022-09-04"
+    },
+    {
+      "boardId": 67714408839,
+      "description": "",
+      "completed": false,
+      "listId": 27570642897,
+      "title": "milk",
+      "id": 3845215783,
+      "created": "2022-09-01",
+      "deadline": "2022-09-04"
+    }
+  ],
   "users": [],
-  "lists": []
+  "lists": [
+    {
+      "boardId": 67714408839,
+      "title": "to buy",
+      "id": 27570642897,
+      "created": "2022-09-01"
+    }
+  ]
 }

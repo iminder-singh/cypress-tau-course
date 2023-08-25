@@ -2,14 +2,14 @@
 
 beforeEach(() => {
 
-  cy
-    .visit('/board/2305140181')
+  cy.visit('/board/68665933327')
 })
 
 it('Chaining commands', () => {
 
   cy
-    .get('[data-cy="task"]')
+    .get('[data-cy="list"]')
+    .eq(2)
     .should('be.visible')
 
 });
